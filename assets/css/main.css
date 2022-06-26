@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital@1&family=Nunito+Sans:wght@600&family=Roboto+Condensed&display=swap');
+
+.container {
+  height: 85vh;
+  margin: 0.2em 0.3em;
+  padding: 0.1em 2em;
+  float: left;
+  background: #eaeaea;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+.content_left {
+  width: 75%;
+  height: 100%;
+}
+.title {
+  width: 100%;
+  height: auto;
+  padding-block: 1em;
+}
+.company_title {
+  font-size: 70px;
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  color: rgb(217,99,255);
+}
+.info {
+  width: 100%;
+  height: auto;
+  color: rgb(116,116,116);
+  font-family: 'Lora', serif;
+}
+.go {
+  width: 100%;
+  height: auto;
+  margin-block: 2rem;
+}
+.content_right {
+  width: 10%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 2.5rem;
+}
