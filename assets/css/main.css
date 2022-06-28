@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital@1&family=Nunito+Sans:wght@600&family=Roboto+Condensed&display=swap');
 
 .container {
-  height: 85vh;
   margin: 0.2em 0.3em;
   padding: 0.1em 2em;
   float: left;
-  background: #eaeaea;
   display: flex;
   justify-content: center;
   gap: 2em;
@@ -46,6 +44,16 @@
   gap: 2rem;
   padding-top: 2.5rem;
 }
+
+.media {
+  color: rgb(157,0,208);
+  cursor: pointer;
+}
+
+.media:hover {
+  color: #7c00ff;
+}
+
 
 /* style for mobile */
 @media only screen and (max-width: 600px) {
