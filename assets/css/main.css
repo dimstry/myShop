@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital@1&family=Nunito+Sans:wght@600&family=Roboto+Condensed&display=swap');
 
-.container {
+
+body {
+  font-family: Arial;
+}
+
+
+/* Section 1 */
+.content {
   margin: 0.2em 0.3em;
   padding: 0.1em 2em;
   float: left;
@@ -8,6 +15,7 @@
   justify-content: center;
   gap: 2em;
 }
+
 
 .content_left {
   width: 75%;
@@ -54,10 +62,26 @@
   color: #7c00ff;
 }
 
+/* Section 2 */
+.content_list {
+  margin: 0.2em 0.3em;
+  padding: 0.1em 2em;
+  float: left;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+.list_left {
+  width: 50%;
+}
+.list_right {
+  width: 50%;
+}
+
 
 /* style for mobile */
 @media only screen and (max-width: 600px) {
-  .container {
+  .content {
     padding: 0.1em 0.2em;
     justify-content: flex-start;
   }
